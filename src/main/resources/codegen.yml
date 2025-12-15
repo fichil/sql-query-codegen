@@ -1,0 +1,12 @@
+input:
+  sqlFiles:
+    - src/main/resources/input
+
+
+output:
+  dir: output
+  queryPackage: query
+  modelPackage: model
+  hbmDir: output/hbm
+  idColumn: JOB_ID
+  versionColumn: REC_VER
